@@ -6,11 +6,6 @@ require 'lru_rb/lru_cache'
 require 'lru_rb/queue'
 
 module LRU_RB
-
-  def self.test
-    puts "testing..."
-  end
-
   def self.cache
     @curr_cache ||= LruCache.new
   end
