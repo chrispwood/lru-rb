@@ -3,7 +3,7 @@
 This is a thread safe LRU cache that can be used for any particular caching needs. I have already included a simple thread safe blocking queue that I used for calculating cache hit ratios in my rake test.
 
 TODO: add unit tests
-TODO: add a btree index on the linked_list for faster seeks - right now it is O(n)  :(
+TODO: add a btree index on the linked_list for faster seeks - right now it is O(n) :frowning:
 
 ## Installation
 
